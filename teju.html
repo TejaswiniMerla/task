@@ -1,1 +1,449 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+table, th, td {
+  border-spacing: 15px;
+}
+th, td {
+  padding: 5px;
+}
+</style>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">NIPUNA2K21</a>
+  
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#tech" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TECHNICAL EVENTS</a>
+      <a href="#nontech" class="w3-bar-item w3-button"><i class="fa fa-sun-o"></i>NON-TECHNICAL EVENTS</a>
+      <a href="#register" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> REGISTER</a>
+    </div>
+
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#tech" onclick="w3_close()" class="w3-bar-item w3-button">TECHNICAL EVENTS</a>
+  <a href="#nontech" onclick="w3_close()" class="w3-bar-item w3-button">NON-TECHNICAL EVENTS</a>
+  <a href="#register" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+
+
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">NIPUNA2K21</h3>
+  <p class="w3-center w3-large">THE VISION OF INCEPTION</p>
+<BR>
+  <BR>
+    <P>NIPUNA is a 2 day National level techno-managment symposium prestigiously heralded by ISTE STUDENT'S CHAPTER of SRKREC 
+      to enhance technical and softskills of young engineers and with the vision of providing
+       a common platform to the budding Indian talents and skills needed to present themselves as the BEST.</P>
+</div>
+
+
+
+
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="team">
+  <h3 class="w3-center"><b style="font-family: Georgia, 'Times New Roman', Times, serif;">THE TEAM</b></h3>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>ABC</h3>
+          <p class="w3-opacity">Secretary</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, tenetur asperiores, rerum laborum quod id rem, natus perspiciatis corrupti 
+            ad consectetur vero dolorem expedita eaque adipisci veritatis? Id, veniam soluta?</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact : 2223330009</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>DEF</h3>
+          <p class="w3-opacity">Joint Secretary</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, tenetur asperiores, rerum laborum quod id rem, natus perspiciatis corrupti 
+            ad consectetur vero dolorem expedita eaque adipisci veritatis? Id, veniam soluta?</p>
+          <p><button class="w3-button w3-light-grey w3-block"> Contact : 1112223334</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>GHI</h3>
+          <p class="w3-opacity">Treasurer</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, tenetur asperiores, rerum laborum quod id rem, natus perspiciatis corrupti 
+            ad consectetur vero dolorem expedita eaque adipisci veritatis? Id, veniam soluta?</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact : 7776665553</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>XYZ</h3>
+          <p class="w3-opacity">Web Incharge</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, tenetur asperiores, rerum laborum quod id rem, natus perspiciatis corrupti 
+            ad consectetur vero dolorem expedita eaque adipisci veritatis? Id, veniam soluta?</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact : 8888881234</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container" style="padding:128px 16px" id="tech">
+  <h3 class="w3-center"><b style="font-family: Georgia, 'Times New Roman', Times, serif;">TECHNICAL EVENTS</b></h3>
+ 
+ 
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>DEBUGGING</b></h3>
+      <img src="img/debug.png" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="DEBUGGING    :
+      A great event and competition to organize for the future programmers where several institutes can come together
+       and compete with the student of other institution. It involves problem-solving and algorithmic thinking of the students. 
+       The students will involve in problem-solving or debugging. The students participating in the competition will be given time to
+        solve the maximum errors in limited time.
+
+      ">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>LAN GAMING</b></h3>
+        <img src="img/lan gaming.jpg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"  alt="LAN GAMING   :     
+        Nowadays many institutes, especially the management colleges, hold this LAN Game in their fest. Also, a popular youth TV channel holds LAN Gaming. 
+        This could be interesting for the new Gamers. In LAN gaming, you have to compete with other team and beat them for a win. 
+        This can be either in a group or between two players. There are a series of rounds in which the players with the highest score will be the winner. 
+        Several institutes can participate either as a team or an individual. 
+        LAN gaming sounds interesting for new generations.">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>PROJECT EXPO</b></h3>
+      <img src="img/project expo4.jpeg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="PROJECT EXPO  :
+      Project Expo is a technical event in which the participants      
+      should prepare  their project at home and they have to  bring the project to demonstrate before the judges.
+      There is only one round and the best is chosen by the judges and the respective prizes are given away."
+      >
+ 
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>POSTER PRESENTATION</b></h3>
+      <img src="img/poster1.jpg" style="width: 350px; height: 200px;"  onclick="onClick(this)" class="w3-hover-opacity" alt="POSTER PRESENTATION   :
+      Poster presentation
+In this event, contestants prepare a poster that showcases and effectively presents experiments with given objectives,
+ new ideas related to the field. The main idea of the event is to analyze a topic and think with a new bent of mind. 
+The more creative you get, the higher is your chance of impressing the panel">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>TREASURE HUNT</b></h3>
+      <img src="img/treasure hunt.png"  style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="TREASURE HUNT   : 
+      Treasure hunting isn’t just for pirates or professionals anymore! College CSFest presents Treasure Hunt 
+      which is an exciting interactive Game for Geeks. It’s time to master your Coding skills and go on a voyage for the treasure.
+
+      ">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>ROBOTICS TRAINING</b></h3>
+      <img src="img/robotics.jpeg" style="width: 350px; height: 200px; "onclick="onClick(this)" class="w3-hover-opacity" alt="ROBOTICS TRAINING    :
+      A live demonstration of selected robotics and embedded projects 
+      will be shown by the students and faculties of department which will help 
+      the attendee to develop their own robotics projects.
+       The project demonstration includes both software and hardware aspects so that the students can make these from scratch.">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:blue; font-family: 'Courier New', Courier, monospace";><b>ENGADGET</b></h3>
+      <img src="img/engadget.jpg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="ENGADGET    :
+      Engadget event specifies a trend of technology around us. We know that 
+      Time and Tide wait for none so be as quick you can and show up your passion for technology.
+      Logos will be displayed on the screens for 45 seconds each, and you will have to guess and write them down on a paper .
+      Top5 teams will be promoted to next round.">
+    </div>
+
+    
+  </div>
+</div>
+
+
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="nontech">
+  <h3 class="w3-center"><b style="font-family: Georgia, 'Times New Roman', Times, serif;">NON-TECHNICAL EVENTS</b></h3>
+
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <h3 style="color:white; font-family: 'Courier New', Courier, monospace";><b>WHO AM I</b></h3>
+      <img src="img/whoami.jpeg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="WHO AM I   :
+
+The player needs to roll the dice and based on the number a colour will be selected.
+The team which picks at least 20 balls 
+of the given colour in the given time limit will be promoted to the next round.
+
+      ">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:white; font-family: 'Courier New', Courier, monospace";><b>KEYBOARD ASSEMBLY</b></h3>
+        <img src="img/keyboard.jpg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"  alt="KEYBOARD ASSEMBLY  :     
+      
+        Disassembled Keyboard will be given and the keyboard in connected state is showed before dismantling. 
+        Later you have to reassemble the Keyboard in the shortest possible time.">
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:WHITE; font-family: 'Courier New', Courier, monospace";><b>QUIKR</b></h3>
+      <img src="img/quikr.jpg" style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="QUIKR  :
+      Participant shall first pick a chit from a box of chits (specific category) and later they have to pick up all 
+      the words from another box of chits which would relate to the chit category picked up first.
+      Simple C questions will be asked and the answers for those questions should be surfed from the box of chits."
+      >
+ 
+    </div>
+    <div class="w3-col l3 m6">
+      <h3 style="color:white; font-family: 'Courier New', Courier, monospace";><b>CPU ASSEMBLY</b></h3>
+      <img src="img/CPU.jpg" style="width: 350px; height: 200px;"  onclick="onClick(this)" class="w3-hover-opacity" alt="CPU ASSEMBLY   :
+
+      Disassembled CPU will be given and a small demo of how the CPU is connected is showed before dismantling. 
+      Later you have to reassemble the CPU in the shortest possible time">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <h3 style="color:WHITE; font-family: 'Courier New', Courier, monospace";><b>IT'S APPENING</b></h3>
+      <img src="img/ITS.JPG"  style="width: 350px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt=" IT'S APPENING : 
+      In this app logos will be displayed randomly for seconds and the contestants have to write the logos as many as they remember.
+      ">
+    </div>
+    
+    
+   
+  </div>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="register">
+  <h3 class="w3-center">REGISTER HERE</h3>
+
+  <div class="pt-page pt-page-4">
+    <div class=navcolor style=background-color:#123></div>
+    <div class=contains style=color:b;margin-left:20px;padding:20px>
+        <div class=container-fluid>
+        
+            <form id=regform target=_blank action=http://prataprajs.hostei.com/phpqrcode/acu.php method=post>
+                <div class=from-group style=float:left>
+                    <h3>Your Information:</h3>
+                    <table>
+                        <tr>
+                            <td>
+                                <input class=form-control placeholder=*Name name=name>
+                                <tr>
+                                    <td>
+                                        <input class=form-control placeholder=*College name=col>
+                                        <tr>
+                                            <td>
+                                                <input class=form-control placeholder=*Branch name=branch>
+                                                <tr>
+                                                    <td>
+                                                        <input class=form-control placeholder=*email name=email>
+                                                        <tr>
+                                                            <td>
+                                                                <input class=form-control placeholder="*Phone (9999999999)" name=pnum>
+                    </table>
+                </div>
+                <div class=form-group style=float:left;margin-left:40px>
+                    <h3>Events you want to register:</h3>
+                    <table >
+                        <tr>
+                            <th>*Technical</th>
+                            <th>*Non-Technical</th>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <label>
+                                                <input type=checkbox name=1>Debugging</label>
+                                        </div>
+                                        </td>
+                                        <td>
+                                          <div>
+                                              <label>
+                                                  <input type=checkbox name=1>Who Am I</label>
+                                          </div>
+                                          </td>
+                                          </tr>
+
+                                          <tr>
+                                            <td>
+                                                <div>
+                                                    <label>
+                                                        <input type=checkbox name=1>Lan Gaming</label>
+                                                </div>
+                                                </td>
+                                                <td>
+                                                  <div>
+                                                      <label>
+                                                          <input type=checkbox name=1>Keyboard Assembly</label>
+                                                  </div>
+                                                  </td>
+                                                  </tr>
+
+                                  
+
+                                                  <tr>
+                                                    <td>
+                                                        <div>
+                                                            <label>
+                                                                <input type=checkbox name=1>Project Expo</label>
+                                                        </div>
+                                                        </td>
+                                                        <td>
+                                                          <div>
+                                                              <label>
+                                                                  <input type=checkbox name=1>Quikr</label>
+                                                          </div>
+                                                          </td>
+                                                          </tr>
+
+                                                          <tr>
+                                                            <td>
+                                                                <div>
+                                                                    <label>
+                                                                        <input type=checkbox name=1>Poster Presentation</label>
+                                                                </div>
+                                                                </td>
+                                                                <td>
+                                                                  <div>
+                                                                      <label>
+                                                                          <input type=checkbox name=1>Cpu Assembly</label>
+                                                                  </div>
+                                                                  </td>
+                                                                  </tr>
+
+                                                                  <tr>
+                                                                    <td>
+                                                                        <div>
+                                                                            <label>
+                                                                                <input type=checkbox name=1>Treasure Hunt</label>
+                                                                        </div>
+                                                                        </td>
+                                                                        <td>
+                                                                          <div>
+                                                                              <label>
+                                                                                  <input type=checkbox name=1>It's Appening</label>
+                                                                          </div>
+                                                                          </td>
+                                                                          </tr>
+
+                                                                          <tr>
+                                                                            <td>
+                                                                                <div>
+                                                                                    <label>
+                                                                                        <input type=checkbox name=1>Robotics Training</label>
+                                                                                </div>
+                                                                                </td>
+                                                                              
+                                                                                  </tr>
+                                                                                  <tr>
+                                                                                    <td>
+                                                                                        <div>
+                                                                                            <label>
+                                                                                                <input type=checkbox name=1>Engadget</label>
+                                                                                        </div>
+                                                                                        </td>
+                                                                                      
+                                                                                          </tr>
+
+                                                  
+                
+                                                                                                      
+                                                                                                        <button id=register type=submit class="btn btn-primary" style=margin-left:20px;margin-top:50px;float:right>Register</button>
+                    </table>
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+ 
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
